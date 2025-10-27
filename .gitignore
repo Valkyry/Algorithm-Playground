@@ -1,0 +1,114 @@
+# =====================
+# Build outputs
+# =====================
+bin/
+obj/
+out/
+TestResults/
+
+# =====================
+# User-specific files
+# =====================
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.vsp
+*.vspscc
+
+# =====================
+# Visual Studio
+# =====================
+.vs/
+*.vscode/
+*.code-workspace
+
+# =====================
+# Rider / JetBrains
+# =====================
+.idea/
+*.sln.iml
+*.ipr
+*.iws
+
+# =====================
+# NuGet
+# =====================
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.symbols.nupkg
+project.lock.json
+
+# =====================
+# ASP.NET / Web
+# =====================
+wwwroot/lib/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =====================
+# Configuration / Secrets
+# =====================
+appsettings.Local.json
+appsettings.Secrets.json
+*.pfx
+*.key
+*.pem
+*.env
+
+# =====================
+# EF Core Migrations / DB
+# =====================
+*.db
+*.sqlite
+migrations/
+*.bak
+*.mdf
+*.ldf
+
+# =====================
+# Dotnet CLI / temp
+# =====================
+*.dotCover
+*.ncrunch*
+*.resharper
+*.DotSettings.user
+_ReSharper*/
+*.suo
+*.user
+*.userosscache
+*.ide
+*.cache
+*.log
+*.vsmdi
+
+# =====================
+# Test / coverage
+# =====================
+coverage/
+*.coverage
+*.coveragexml
+*.testresults
+.vscode-test/
+
+# =====================
+# Rider / ReSharper
+# =====================
+.idea/
+*.sln.DotSettings.user
+*.resharper
+
+# =====================
+# Misc / OS
+# =====================
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.bak
+*.swp
+*.tmp
+*.temp
